@@ -1,0 +1,272 @@
+/* #5594c3 */
+.navbar, .navbar-inverse .navbar-inner {
+    z-index: 2;
+    background-color: #0072C6;
+    background-image: none;
+    margin-bottom:0px;
+    color: white;
+}
+
+.navbar-inner {
+    border:0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+}
+.navbar .nav > li {
+    font-size: 1.4em;
+}
+.navbar .nav > li > a {
+    text-shadow: 0 0 0 rgba(0,0,0,0);
+    padding-bottom: 10px;
+    margin-left: 15px;
+    padding-top: 10px;
+    color: #f2f2f2;
+}
+
+.navbar .nav > li > span.project-name {
+    display: block;
+    margin-left: 15px;
+    padding-top: 10px;
+    color: #fff;
+    font-size: 1.2em;
+    margin-right:50px;
+    text-transform: capitalize;
+}
+
+.navbar .nav > li > span.project-name img {
+    margin-top: -6px;
+    width:32px;
+    height:32px;
+}
+
+.navbar .nav > li:hover > a {
+    color: #fff;
+}
+
+.navbar .nav > li.disabled > a,
+.navbar .nav > li.disabled:hover > a {
+    color: #809db2;
+}
+
+.nav a {
+    padding-top:-5px;
+}
+
+a [class*=" icon-"] {
+    float:left;
+    margin-top:2px;
+    margin-right: 5px;
+}
+
+.nav-window-controls {
+    margin-right: 4px !important;
+}
+
+.nav-window-controls li,
+.nav-window-controls li a {
+    font-size:0.7em;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.nav.nav-window-controls > li > a {
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.footer {
+    display:none;
+    position:absolute;
+    bottom:0px;
+    height:25px;
+    background:#0072C6;
+    color:white;
+    width:100%;
+}
+
+.welcome {
+    margin-top:20px;
+    margin-left:20px;
+    *display:none;
+}
+
+.editor-pane {
+    display:none;
+}
+
+.editor-pane .rootWrap  {
+    width:98%;
+    margin: auto;
+}
+
+.trans_from {
+    float:left;
+    width:46%;
+}
+
+.trans_to {
+    float:right;
+    width:46%;
+}
+
+.trans_from textarea, .trans_to textarea {
+    width:100%;
+    margin:0;
+    padding:0;
+    padding-left:1%;
+    padding-right:1%;
+}
+
+.trans_from textarea {
+    margin-left:3%;
+    resize:none;
+}
+
+.trans_to textarea {
+    margin-left:-5%;
+}
+
+.container {
+    z-index:3;
+    width: 98%;
+}
+
+.paragraph-block {
+    padding-left:0px;
+    padding-right:0px;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+}
+
+.sentence-block {
+    padding-bottom:10px;
+    border-bottom:1px solid #e3e3e3;
+    margin-bottom:10px;
+}
+
+.sentence-block.last {
+    padding-bottom:0;
+    border-bottom: 0;
+}
+
+.trans_to_buttons {
+    position: relative;
+    right: 0;
+    float:right;
+    height: 26px;
+    margin-right: 5%;
+    margin-top:-16px;
+    display:table-cell;
+    vertical-align: bottom;
+}
+
+.trans_to_buttons button {
+    margin-bottom: -10px;
+    position: absolute;
+    height:10px;
+    bottom: 0;
+}
+
+.trans_to_buttons button {
+    width:60px;
+}
+
+h4 {
+    font-weight: normal;
+    margin-bottom: 0px;
+    padding-bottom: 4px;
+    margin-top:16px;
+    text-transform: capitalize;
+}
+
+.container {
+    width:100%;
+}
+
+textarea {
+    height:25px;
+    resize:vertical;
+}
+
+.support {
+    position: absolute;
+    line-height: 25px;
+    font-size: 14px;
+    border:1px solid red;
+    width:1px;
+    top:-99999px;
+    left:-99999px;
+}
+
+.editor-buttons {
+    z-index: 4;
+    display:none;
+    width:100%;
+    position:absolute;
+    bottom:24px;
+    height:46px;
+    background: #d4d4d4;
+}
+
+.editor-buttons .btn-group button:first-child,
+.editor-buttons .btn-group ul li {
+    width:170px;
+}
+
+.dropdown-menu {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    box-shadow: none;
+    -webkit-box-shadow:none;
+}
+
+.popover-title {
+    color:white;
+    background: #0072C6;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    text-transform: capitalize;
+}
+
+.popover {
+    padding:0px;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+    text-align: center;
+}
+
+.editor-block {
+    display:none;
+    position:absolute;
+    top:0px;
+    height:0px;
+    width:10000px;
+    height:100000px;
+    background:#222;
+    opacity: 0.1;
+    -webkit-opacity:0.1;
+    z-index:1;
+}
+
+.confirm-buttons {
+    margin: 0 auto;
+    width:265px;
+}
+
+.error-buttons {
+    margin: 0 auto;
+    width:122px;
+}
+
+.confirm-buttons .btn.btn-primary  {
+    width:100px;
+    margin-right:10px;
+}
+
+.error-buttons .btn.btn-danger  {
+    width:100px;
+}
