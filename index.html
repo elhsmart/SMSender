@@ -2,11 +2,11 @@
 <html>
 <head>
     <title>Transed</title>
-    <link rel="stylesheet" href="/css/bootstrap.css"/>
-    <link rel="stylesheet" href="/css/font-awesome.css"/>
-    <link rel="stylesheet" href="/css/style.css"/>
+    <link rel="stylesheet" href="css/font-awesome.css"/>
+	<link rel="stylesheet" href="css/bootstrap.css" media="all">
+	<link rel="stylesheet" href="css/style.css" media="all">
 
-    <script data-main="/js/smsender.js" src="/js/lib/require.js"></script>
+    <script data-main="js/smsender.js" src="/js/lib/require.js"></script>
 </head>
 <body>
 <div class="editor-block"></div>
@@ -26,16 +26,15 @@
 </div>
 <div class="container">
     <div class="welcome">
-        <p>Simple SMS Sender.</p>
         <form class="form-horizontal">
             <div class="control-group">
-                <label class="control-label" for="inputEmail">Phone</label>
+                <label class="control-label" for="inputEmail"><i class="icon-user icon-white"></i> Phone</label>
                 <div class="controls">
                     <input type="text" id="inputNumber" style=" width:80%;" placeholder="+3809612345678">
                 </div>
             </div>
             <div class="control-group">
-                <label class="control-label" for="inputPassword">Message</label>
+                <label class="control-label" for="inputPassword"><i class="icon-comment icon-white"></i> Message</label>
                 <div class="controls">
                     <textarea name="inputMessage" id="inputMessage" style="height:300px; width:80%;"></textarea>
                 </div>
